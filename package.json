@@ -1,0 +1,9 @@
+{
+  "name": "sandbox-node-env",
+  "version": "1.0.0",
+  "description": "Express API that needs env vars and Postgres, for testing the env gate",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2", "pg": "^8.11.5" }
+}
